@@ -1,7 +1,14 @@
+# Node/Next
 node_modules/
 .next/
 out/
-.DS_Store
-.vscode/
-.env*
-*.db*
+npm-debug.log*
+.yarn/*
+.pnpm-store/
+# Env
+.env
+.env.*.local
+frontend/.env.local
+backend/.env.local
+# DB local
+backend/data.db*
